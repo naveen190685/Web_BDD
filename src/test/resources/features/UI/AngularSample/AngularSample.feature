@@ -5,9 +5,9 @@ Feature: Showcase automation with NgWebDriver
   @AngularAutomationSample
   Scenario: Check interaction with angular sample website
     Given user is on hello-angularjs.appspot.com/addtablerow
-    And add company name as "Onelink"
+    And add company name as "nk487444"
     And add employee names as "1200"
     And add Headoffice name as "Australia"
     When submit button to add
-    Then new row should be shown with details as "Onelink", "1200" and "Austrailia"
+    Then new row should be shown with details as "nk487444", "1200" and "Austrailia"
 
